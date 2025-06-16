@@ -10,7 +10,7 @@ The objective of this repository is to compare the performance of various popula
 
 The dataset used in this project is a structured tabular dataset containing information about used car listings, including their specifications, condition indicators, and pricing.
 
-- **Source:** Used Car Price Prediction Dataset – Kaggle
+- **Source:** [Used Car Price Prediction Dataset – Kaggle](https://www.kaggle.com/datasets/taeefnajib/used-car-price-prediction-dataset)
 - **Total Records:** ~4,000
 - **Target Variable:** price (numeric value in USD)
 - **Features include:**  
@@ -20,22 +20,22 @@ The dataset used in this project is a structured tabular dataset containing info
 
 ## Regression Models Overview
 
-**1. Linear Regression**
+**1. Linear Regression:**
 A basic linear model used as a benchmark. Assumes linear relationships and offers full interpretability.
 
-**2. Kernel Support Vector Machine (SVR with RBF Kernel)**
+**2. Kernel Support Vector Regressor:**
 A powerful non-linear model that captures complex feature interactions. Ideal for smaller datasets with non-linear patterns.
 
-**3. Decision Tree Regressor**
+**3. Decision Tree Regressor:**
 Rule-based, non-linear model. Simple and interpretable but prone to overfitting.
 
-**4. Random Forest Regressor**
+**4. Random Forest Regressor:**
 An ensemble of decision trees that improves generalization and handles outliers and missing data well.
 
-**5. Gradient Boosting Regressor**
+**5. Gradient Boosting Regressor:**
 A sequential ensemble model that incrementally improves performance by correcting errors from previous trees.
 
-**6. XGBoost Regressor**
+**6. XGBoost Regressor:**
 An optimized boosting algorithm with regularization and fast performance. Great for handling structured/tabular data.
 
 ## Model Performance Comparison
